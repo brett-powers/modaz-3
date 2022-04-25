@@ -14,3 +14,40 @@ body {
 html {
   font-size: 62.5%;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--color-secondary);
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: 3.3rem;
+}
+
+h3 {
+  font-size: 5rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 2.3rem;
+}
