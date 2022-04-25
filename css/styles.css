@@ -90,3 +90,8 @@ h5 {
   background: var(--color-primary);
   color: var(--color-white);
 }
+
+/* Lists */
+ul {
+  list-style: none;
+}
