@@ -113,12 +113,17 @@ ul {
 .icon-list__item > a:hover {
   color: var(--color-primary);
 }
-/* Navigation Bar */
+
 .nav__icon {
   margin-right: 30px;
 }
 
-/* Newsletter */
+.offer__icon {
+  margin: 30px;
+  color: var(--color-primary);
+  font-size: 2rem;
+}
+
 .newsletter__icon {
   margin-right: 20px;
   font-size: 1.7rem;
