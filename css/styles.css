@@ -95,3 +95,36 @@ h5 {
 ul {
   list-style: none;
 }
+
+/* Icons */
+.icon-list {
+  display: flex;
+}
+
+.icon-list__item {
+  font-size: 1.5rem;
+}
+
+.icon-list__item > a {
+  color: var(--color-secondary);
+  transition: color 0.3s;
+}
+
+.icon-list__item > a:hover {
+  color: var(--color-primary);
+}
+
+.nav__icon {
+  margin-right: 30px;
+}
+
+.offer__icon {
+  margin: 30px;
+  color: var(--color-primary);
+  font-size: 2rem;
+}
+
+.newsletter__icon {
+  margin-right: 20px;
+  font-size: 1.7rem;
+}
