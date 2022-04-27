@@ -128,3 +128,75 @@ ul {
   margin-right: 20px;
   font-size: 1.7rem;
 }
+
+/* Cards */
+
+.card {
+  margin: 30px;
+  text-align: center;
+  width: 200px;
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 0 5px 10px var(--color-background-light);
+}
+
+.card__header {
+  align-items: center;
+  display: flex;
+}
+
+.card__new,
+.card__sale {
+  color: var(--color-white);
+  display: inline;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 10px 20px;
+  padding: 5px 20px;
+}
+
+.card__new {
+  background: rgb(3, 192, 3);
+}
+
+.card__sale {
+  background: var(--color-primary);
+}
+
+.card__img {
+  background: 50% 50% url(../images/pink.jpg) no-repeat;
+  height: 150px;
+}
+
+.card__description,
+.card__price {
+  font-weight: 500;
+}
+
+.card__description {
+  font-size: 1.5rem;
+  margin: 10px 15px;
+}
+
+.card__price {
+  font-size: 1.7rem;
+  color: var(--color-primary);
+}
+
+.card__footer {
+  height: 60px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.card__btn {
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.card:hover .card__btn {
+  opacity: 1;
+}
