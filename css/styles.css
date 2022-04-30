@@ -96,6 +96,11 @@ ul {
   list-style: none;
 }
 
+/* Links */
+a {
+  text-decoration: none;
+}
+
 /* Icons */
 .icon-list {
   display: flex;
