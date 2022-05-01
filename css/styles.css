@@ -9,6 +9,7 @@
 /* Typeography */
 body {
   font-family: poppins, Arial, Helvetica, sans-serif;
+  margin-top: 77px;
 }
 
 html {
@@ -238,10 +239,13 @@ input:focus {
 
 /* Navigation Bar */
 .navBar {
+  background: var(--color-white);
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  height: 50px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav__logo {
@@ -249,17 +253,22 @@ input:focus {
 }
 
 .nav__bars {
-  font-size: 2.3rem;
-  color: var(--color-primary);
-  margin-right: 20px;
   align-self: center;
+  color: var(--color-primary);
+  font-size: 2.3rem;
+  margin-right: 20px;
+}
+
+.nav__list-container {
+  width: 100%;
 }
 
 .nav__list {
-  width: 100%;
   background: var(--color-secondary);
-  padding-left: 0;
   margin: 0;
+  padding-left: 0;
+  /* Temporary */
+  display: none;
 }
 
 .nav__list-item {
@@ -280,4 +289,40 @@ input:focus {
 
 .nav__icons {
   display: none;
+}
+
+@media screen and (min-width: 900px) {
+  .navBar {
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 80px;
+  }
+
+  .nav__bars {
+    display: none;
+  }
+
+  .nav__list-container {
+    display: flex;
+    margin-right: 50px;
+    width: auto;
+  }
+
+  .nav__list {
+    display: flex;
+    background: var(--color-white);
+  }
+
+  .nav__list-item {
+    border: none;
+  }
+
+  .nav__list-item > a {
+    color: var(--color-secondary);
+  }
+
+  .nav__icons {
+    display: flex;
+    align-items: center;
+  }
 }
