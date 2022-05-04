@@ -10,7 +10,6 @@
 body {
   font-family: poppins, Arial, Helvetica, sans-serif;
   margin-top: 77px;
-  height: 900px;
 }
 
 html {
@@ -438,4 +437,75 @@ input:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media screen and (min-width: 575px) {
+  .product__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .product__img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(4, 200px);
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .product__men,
+  .product__kids,
+  .product__accessories,
+  .product__women {
+    height: auto;
+  }
+
+  .product__kids,
+  .product__women {
+    margin: 0;
+  }
+
+  .product__men,
+  .product__women {
+    grid-row: span 2;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .product__img-container {
+    grid-template-columns: repeat(3, 220px);
+    grid-template-rows: repeat(2, 150px);
+    gap: 20px;
+  }
+
+  .product__accessories {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .product__women {
+    grid-column: 3;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .product__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .product__img-container {
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 200px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .product__img-container {
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 245px);
+  }
 }
