@@ -10,6 +10,7 @@
 body {
   font-family: poppins, Arial, Helvetica, sans-serif;
   margin-top: 77px;
+  height: 6000px;
 }
 
 html {
@@ -508,4 +509,35 @@ input:focus {
     grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(2, 245px);
   }
+}
+
+/* Feature */
+.feature {
+  margin-top: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background: var(--color-background-light);
+}
+
+.feature__trend,
+.feature__sale {
+  text-transform: uppercase;
+  color: var(--color-secondary);
+}
+
+.feature__trend {
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.feature__header {
+  margin: 15px 0;
+}
+
+.feature__sale {
+  font-size: 2rem;
+  margin-bottom: 50px;
 }
