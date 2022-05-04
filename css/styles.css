@@ -10,6 +10,7 @@
 body {
   font-family: poppins, Arial, Helvetica, sans-serif;
   margin-top: 77px;
+  height: 900px;
 }
 
 html {
@@ -272,10 +273,10 @@ input:focus {
 }
 
 .nav__list-item {
+  border-top: 1px solid rgb(56, 56, 56);
   font-size: 1.5rem;
   padding: 15px;
   text-transform: uppercase;
-  border-top: 1px solid rgb(56, 56, 56);
 }
 
 .nav__list-item > a {
@@ -293,8 +294,8 @@ input:focus {
 
 @media screen and (min-width: 900px) {
   .navBar {
-    flex-wrap: nowrap;
     align-items: center;
+    flex-wrap: nowrap;
     height: 80px;
   }
 
@@ -324,5 +325,59 @@ input:focus {
   .nav__icons {
     display: flex;
     align-items: center;
+  }
+}
+
+/* Hero */
+.hero__img {
+  background: 50% 50% url(../images/necklace.jpg) no-repeat;
+  background-size: cover;
+  height: 450px;
+  display: flex;
+  align-items: center;
+}
+
+.hero__text-container {
+  margin-left: 80px;
+}
+
+.hero__trend,
+.hero__sale {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+}
+
+.hero__header {
+  margin: 15px 0;
+}
+
+.hero__btn {
+  margin-top: 25px;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__img {
+    height: 600px;
+  }
+
+  .hero__trend {
+    font-size: 2.5rem;
+  }
+
+  .hero__sale {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .hero__img {
+    height: 700px;
+  }
+
+  .hero__text-container {
+    margin-left: 100px;
   }
 }
