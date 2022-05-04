@@ -17,6 +17,10 @@ html {
   font-size: 62.5%;
 }
 
+main {
+  margin: 0 15px;
+}
+
 h1,
 h2,
 h3,
@@ -380,4 +384,58 @@ input:focus {
   .hero__text-container {
     margin-left: 100px;
   }
+}
+
+/* Products */
+.product,
+.product__header,
+.product__cards {
+  margin-top: 50px;
+}
+
+.product {
+  text-align: center;
+}
+
+.product__men,
+.product__kids,
+.product__accessories,
+.product__women {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product__men,
+.product__women {
+  height: 600px;
+}
+
+.product__men {
+  background: 50% 50% url(../images/Mens.jpg) no-repeat;
+}
+
+.product__kids,
+.product__accessories {
+  height: 300px;
+}
+
+.product__kids {
+  background: 50% 50% url(../images/kids.jpg) no-repeat;
+  margin: 15px 0;
+}
+
+.product__accessories {
+  background: 50% 50% url(../images/accessories.jpg) no-repeat;
+}
+
+.product__women {
+  background: 50% 50% url(../images/people-4.jpg) no-repeat;
+  margin-top: 15px;
+}
+
+.product__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
