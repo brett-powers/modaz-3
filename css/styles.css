@@ -10,7 +10,7 @@
 body {
   font-family: poppins, Arial, Helvetica, sans-serif;
   margin-top: 77px;
-  height: 6000px;
+  height: 9000px;
 }
 
 html {
@@ -130,7 +130,6 @@ a {
 }
 
 .offer__icon {
-  margin: 30px;
   color: var(--color-primary);
   font-size: 2rem;
 }
@@ -599,4 +598,24 @@ input:focus {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
+}
+
+/* Offers */
+.offers {
+  align-content: center;
+  align-items: center;
+  background: var(--color-background-light);
+  display: grid;
+  grid-template-rows: repeat(4, 0.3fr);
+  height: 500px;
+  justify-content: center;
+  text-align: center;
+}
+
+.offer__header {
+  margin: 10px;
+}
+
+.offer__info {
+  font-size: 1.5rem;
 }
