@@ -541,3 +541,32 @@ input:focus {
   font-size: 2rem;
   margin-bottom: 50px;
 }
+
+/* Sale */
+.sale {
+  text-align: center;
+}
+
+.sale__list {
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 40px;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.sale__list-item {
+  border: 1px solid var(--color-black);
+  margin-top: 10px;
+}
+
+.sale__list-item > a {
+  color: var(--color-secondary);
+}
+
+.sale__cards {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
