@@ -680,3 +680,22 @@ input:focus {
     background: 50% 50% url(../images/people-3.jpg) no-repeat;
   }
 }
+/* Newsletter */
+.newsLetter {
+  background: var(--color-background-light);
+  margin-top: 50px;
+  padding: 30px 15px;
+}
+
+.newsLetter__header {
+  margin: 0;
+}
+
+.newsLetter__input {
+  margin: 35px 0;
+  background: var(--color-white);
+}
+
+.newsLetter__icon-list {
+  padding-left: 20px;
+}
