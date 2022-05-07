@@ -10,7 +10,7 @@
 body {
   font-family: poppins, Arial, Helvetica, sans-serif;
   margin-top: 77px;
-  height: 9000px;
+  height: 10000px;
 }
 
 html {
@@ -626,5 +626,57 @@ input:focus {
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     height: 200px;
+  }
+}
+
+/* Latest */
+.latest {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.latest__img-1 {
+  background: 50% 50% url(../images/people-1.jpg) no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+}
+
+.latest__img-3 {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .latest__img-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+
+  .latest__img-1,
+  .latest__img-2 {
+    height: 200px;
+    width: 250px;
+  }
+
+  .latest__img-2 {
+    background: 50% 50% url(../images/people-2.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 868px) {
+  .latest__img-1,
+  .latest__img-2,
+  .latest__img-3 {
+    height: 300px;
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .latest__img-3 {
+    display: inline;
+    background: 50% 50% url(../images/people-3.jpg) no-repeat;
   }
 }
