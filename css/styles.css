@@ -766,3 +766,20 @@ input:focus {
     justify-content: space-evenly;
   }
 }
+
+/* Copyright */
+.copyright {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.copyright__text {
+  border-top: 1px solid var(--color-background-light);
+  color: rgb(129, 129, 129);
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+.copyright__text-black {
+  color: var(--color-black);
+}
