@@ -10,7 +10,6 @@
 body {
   font-family: poppins, Arial, Helvetica, sans-serif;
   margin-top: 77px;
-  height: 10000px;
 }
 
 html {
@@ -731,4 +730,24 @@ input:focus {
     grid-template-columns: 300px 450px;
     column-gap: 100px;
   }
+}
+
+/* Footer */
+.footer__list {
+  margin-top: 50px;
+  padding-left: 15px;
+}
+
+.footer__list-item {
+  font-size: 1.4rem;
+  line-height: 30px;
+}
+
+.footer__list-item > a {
+  color: var(--color-secondary);
+  transition: color 0.3s;
+}
+
+.footer__list-item > a:hover {
+  color: var(--color-primary);
 }
