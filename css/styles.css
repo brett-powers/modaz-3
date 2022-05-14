@@ -352,6 +352,13 @@ input:focus {
   opacity: 1;
 }
 
+@media screen and (min-width: 900px) {
+  .collapsible__content {
+    overflow: unset;
+    opacity: 1;
+  }
+}
+
 /* Hero */
 .hero__img {
   background: 50% 50% url(../images/necklace.jpg) no-repeat;
