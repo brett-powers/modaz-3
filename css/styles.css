@@ -154,6 +154,7 @@ a {
 .card__header {
   align-items: center;
   display: flex;
+  height: 40px;
 }
 
 .card__new,
