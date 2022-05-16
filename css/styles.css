@@ -154,6 +154,7 @@ a {
 .card__header {
   align-items: center;
   display: flex;
+  height: 40px;
 }
 
 .card__new,
@@ -249,6 +250,7 @@ input:focus {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .nav__logo {
