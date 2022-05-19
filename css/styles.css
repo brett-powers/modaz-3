@@ -643,9 +643,6 @@ input:focus {
     width: 130px;
     margin: 0;
   }
-
-  .sale__button {
-  }
 }
 
 @media screen and (min-width: 990px) {
