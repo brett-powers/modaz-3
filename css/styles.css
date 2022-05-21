@@ -652,6 +652,15 @@ input:focus {
   }
 }
 
+/* Sale Filter */
+.show {
+  display: block;
+}
+
+.remove {
+  display: none;
+}
+
 /* Offers */
 .offers {
   align-content: center;
