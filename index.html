@@ -83,6 +83,9 @@
           </div>
         </div>
         <h2 class="product__header">New Product</h2>
+        <div class="line--container">
+          <div class="line"></div>
+        </div>
         <section class="product__cards">
           <article class="card">
             <section class="card__header">
@@ -154,15 +157,28 @@
       </section>
       <section class="sale">
         <h2 class="sale__header">Best Sale</h2>
+        <div class="line--container">
+          <div class="line"></div>
+        </div>
         <ul class="list sale__list">
-          <li class="sale__list-item"><a href="#">All Products</a></li>
-          <li class="sale__list-item"><a href="#">For kid's</a></li>
-          <li class="sale__list-item"><a href="#">For Men</a></li>
-          <li class="sale__list-item"><a href="#">For Women</a></li>
-          <li class="sale__list-item"><a href="#">Accessories</a></li>
+          <li class="sale__list-item">
+            <button class="sale__button all">All</button>
+          </li>
+          <li class="sale__list-item">
+            <button class="sale__button kid">For kid's</button>
+          </li>
+          <li class="sale__list-item">
+            <button class="sale__button men">For Men</button>
+          </li>
+          <li class="sale__list-item">
+            <button class="sale__button women">For Women</button>
+          </li>
+          <li class="sale__list-item">
+            <button class="sale__button accessories">Accessories</button>
+          </li>
         </ul>
         <section class="sale__cards">
-          <article class="card">
+          <article class="card filtered-card" data-kids="kid-women">
             <section class="card__header">
               <div class="card__sale">Sale</div>
             </section>
@@ -177,7 +193,7 @@
               <button class="btn btn--primary card__btn">shop now</button>
             </div>
           </article>
-          <article class="card">
+          <article class="card filtered-card" data-men="men-accessories">
             <section class="card__header">
               <div class="card__sale">Sale</div>
             </section>
@@ -192,7 +208,7 @@
               <button class="btn btn--primary card__btn">shop now</button>
             </div>
           </article>
-          <article class="card">
+          <article class="card filtered-card" data-kids="kid-women">
             <section class="card__header">
               <div class="card__sale">Sale</div>
             </section>
@@ -207,7 +223,7 @@
               <button class="btn btn--primary card__btn">shop now</button>
             </div>
           </article>
-          <article class="card">
+          <article class="card filtered-card" data-men="men-accessories">
             <section class="card__header">
               <div class="card__sale">Sale</div>
             </section>
@@ -222,7 +238,7 @@
               <button class="btn btn--primary card__btn">shop now</button>
             </div>
           </article>
-          <article class="card">
+          <article class="card filtered-card" data-kids="kid-women">
             <section class="card__header">
               <div class="card__sale">Sale</div>
             </section>
@@ -237,7 +253,7 @@
               <button class="btn btn--primary card__btn">shop now</button>
             </div>
           </article>
-          <article class="card">
+          <article class="card filtered-card" data-men="men-accessories">
             <section class="card__header">
               <div class="card__sale">Sale</div>
             </section>
@@ -252,7 +268,7 @@
               <button class="btn btn--primary card__btn">shop now</button>
             </div>
           </article>
-          <article class="card">
+          <article class="card filtered-card" data-kids="kid-women">
             <section class="card__header">
               <div class="card__sale">Sale</div>
             </section>
@@ -267,7 +283,7 @@
               <button class="btn btn--primary card__btn">shop now</button>
             </div>
           </article>
-          <article class="card">
+          <article class="card filtered-card" data-men="men-accessories">
             <section class="card__header">
               <div class="card__sale">Sale</div>
             </section>
@@ -316,6 +332,9 @@
       </section>
       <section class="latest">
         <h2>New Latest</h2>
+        <div class="line--container">
+          <div class="line"></div>
+        </div>
         <div class="latest__img-container">
           <div class="latest__img-1"></div>
           <div class="latest__img-2"></div>
